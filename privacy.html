@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>隱私權政策 - BottingPass</title>
+<meta name="description" content="BottingPass 隱私權政策：說明我們蒐集哪些資料、如何使用、保存與保護，以及你的權利。">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = { theme: { extend: { colors: { brand: { 400: '#818cf8', 500: '#6366f1', 600: '#4f46e5' } } } } };
+</script>
+</head>
+<body class="bg-slate-950 text-slate-200 antialiased font-sans">
+
+<header class="border-b border-slate-800 bg-slate-950">
+  <div class="mx-auto flex max-w-4xl items-center justify-between px-4 py-3">
+    <a href="./" class="text-lg font-bold tracking-tight text-white">Botting<span class="text-brand-400">Pass</span></a>
+    <a href="./" class="text-sm text-slate-300 hover:text-white">← 回首頁</a>
+  </div>
+</header>
+
+<main class="mx-auto max-w-4xl px-4 py-12">
+  <h1 class="text-3xl font-extrabold text-white md:text-4xl">隱私權政策</h1>
+  <p class="mt-2 text-sm text-slate-400">最後更新日期：2026 年 11 月 21 日</p>
+
+  <p class="mt-6 text-sm leading-relaxed text-slate-300">
+    BottingPass（以下稱「我們」）提供 Discord 社群管理機器人之月租軟體使用授權。我們重視你的隱私，
+    本政策說明我們蒐集哪些資料、為何蒐集、如何使用與保護，以及你可行使的權利。
+    使用本服務即表示你已閱讀並同意本政策。
+  </p>
+
+  <div class="mt-8 space-y-8 text-sm leading-relaxed text-slate-300">
+
+    <section>
+      <h2 class="text-lg font-semibold text-white">1. 我們蒐集的資料</h2>
+      <ul class="mt-2 list-disc space-y-2 pl-5">
+        <li><span class="text-white">帳號資料：</span>透過 Discord 登入（OAuth2）時取得的 Discord 使用者 ID、使用者名稱，以及你同意提供的電子郵件。</li>
+        <li><span class="text-white">伺服器設定資料：</span>你授權機器人加入之 Discord 伺服器 ID、身分組 ID，以及你設定的商品與身分組對應關係。</li>
+        <li><span class="text-white">金流串接資料：</span>你自行提供之綠界科技（ECPay）串接金鑰（HashKey／HashIV）。此類金鑰經加密後才儲存，詳見第 5 點。</li>
+        <li><span class="text-white">訂單與授權紀錄：</span>訂單編號、金額、付款狀態、授權期間，以及付款完成後被派發身分組之 Discord 使用者 ID。</li>
+        <li><span class="text-white">技術紀錄：</span>為安全與除錯所需的系統日誌，例如 IP 位址、請求時間、錯誤紀錄。</li>
+        <li><span class="text-white">客服往來：</span>你來信客服時所提供的內容。</li>
+      </ul>
+      <p class="mt-3">我們<strong class="text-white">不會</strong>蒐集或儲存信用卡號、銀行帳號等付款工具資訊；付款頁面與金流處理由綠界科技負責。</p>
+    </section>
+
+    <section>
+      <h2 class="text-lg font-semibold text-white">2. 資料使用目的</h2>
+      <ul class="mt-2 list-disc space-y-2 pl-5">
+        <li>提供、維護與改善機器人功能，包含驗證付款通知並自動派發 Discord 身分組。</li>
+        <li>建立與管理你的帳號與授權狀態、處理訂閱與續約。</li>
+        <li>偵測與防範詐欺、濫用與資安事件。</li>
+        <li>回覆客服詢問，以及發送與服務相關之必要通知。</li>
+        <li>遵循法令或主管機關之要求。</li>
+      </ul>
+      <p class="mt-3">我們不會販售你的個人資料，也不會將其用於與上述目的無關之行銷。</p>
+    </section>
+
+    <section>
+      <h2 class="text-lg font-semibold text-white">3. 第三方服務</h2>
+      <p class="mt-2">為提供服務，資料會於必要範圍內傳遞至下列第三方，其處理方式適用各自之隱私權政策：</p>
+      <ul class="mt-2 list-disc space-y-2 pl-5">
+        <li><span class="text-white">Discord：</span>登入驗證、機器人運作與身分組派發。</li>
+        <li><span class="text-white">綠界科技（ECPay）：</span>金流處理與付款結果通知。</li>
+        <li><span class="text-white">Google Cloud Platform：</span>系統主機、資料庫與機密管理。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="text-lg font-semibold text-white">4. 資料保存期間</h2>
+      <p class="mt-2">
+        帳號與設定資料於你使用本服務期間保存。終止使用後，我們會於合理期間內刪除或去識別化；
+        但訂單與交易紀錄在法令（例如稅務、會計）要求之期間內，或為處理爭議所必要時，將依需要保存。
+        系統日誌僅保存於資安與除錯所需之期間。
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-lg font-semibold text-white">5. 資料安全</h2>
+      <ul class="mt-2 list-disc space-y-2 pl-5">
+        <li>全站以 HTTPS 加密傳輸。</li>
+        <li>你的綠界金鑰以加密方式儲存，加密主金鑰與機器人憑證存放於雲端機密管理服務，不與資料庫放在一起；僅在呼叫綠界時於伺服器記憶體中暫時解密。</li>
+        <li>付款通知會經過檢查碼驗證，並以訂單編號防止重複處理。</li>
+        <li>機器人僅申請運作所必要之 Discord 權限，不要求管理員權限。</li>
+        <li>內部存取採最小權限原則。</li>
+      </ul>
+      <p class="mt-3">任何網路傳輸或儲存方式都無法保證絕對安全；若發生影響你權益之資安事件，我們將依法令及時通知。</p>
+    </section>
+
+    <section>
+      <h2 class="text-lg font-semibold text-white">6. 你的權利</h2>
+      <p class="mt-2">
+        依個人資料保護法，你得就你的個人資料請求查詢或閱覽、製給複製本、補充或更正、停止蒐集處理利用，以及刪除。
+        你也可以在 Discord 的「已授權的應用程式」設定中，隨時撤銷本服務的存取權限。
+        如需行使權利，請透過第 9 點的聯絡方式與我們聯繫；部分請求可能因法令保存義務而無法完全滿足，屆時我們會說明原因。
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-lg font-semibold text-white">7. Cookie 與類似技術</h2>
+      <p class="mt-2">
+        本介紹網站不使用追蹤或廣告 Cookie。管理後台為維持登入狀態與防範 CSRF 攻擊，會使用必要的工作階段 Cookie。
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-lg font-semibold text-white">8. 兒少保護</h2>
+      <p class="mt-2">本服務並非針對未成年人設計。未成年人使用本服務前，應取得法定代理人同意。</p>
+    </section>
+
+    <section>
+      <h2 class="text-lg font-semibold text-white">9. 政策修訂與聯絡方式</h2>
+      <p class="mt-2">
+        我們可能因營運或法令需要修訂本政策，重大變更將於網站公告或以 Email 通知，並更新上方日期。
+      </p>
+      <p class="mt-2">
+        隱私相關問題請來信：
+        <a class="text-brand-400 underline" href="mailto:bottingpass@gmail.com">bottingpass@gmail.com</a>
+      </p>
+    </section>
+
+  </div>
+</main>
+
+<footer class="border-t border-slate-800 bg-slate-950">
+  <div class="mx-auto max-w-4xl px-4 py-6 text-center text-xs text-slate-500">
+    © <span id="year">2026</span> BottingPass. All rights reserved.
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
